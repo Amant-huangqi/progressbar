@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 声明 -->
+    
+    <attr name="progress_unreach_color" fomat="color"></attr>
+    <attr name="progress_unreach_height" fomat="dimension"></attr>
+    <attr name="progress_reach_color" fomat="color"></attr>
+    <attr name="progress_reach_height" fomat="dimension"></attr>
+    <attr name="progress_text_color" fomat="color"></attr>
+    <attr name="progress_text_size" fomat="dimension"></attr>
+    <attr name="progress_text_offset" fomat="dimension"></attr>
+    
+    <!-- 使用 -->
+    <!-- 线性进度条的使用 -->
+    <declare-styleable name="HorizontalProgressbarWithProgress">
+        <attr name="progress_unreach_color"></attr>
+        <attr name="progress_unreach_height"></attr>
+        <attr name="progress_reach_color"></attr>
+        <attr name="progress_reach_height"></attr>
+        <attr name="progress_text_color"></attr>
+        <attr name="progress_text_size"></attr>
+        <attr name="progress_text_offset"></attr>
+    </declare-styleable>
+    
+    <!-- 圆形进度条 -->
+    <declare-styleable name="RoundProgressbarWithProgress">
+        <attr name="radius" format="dimension"></attr>
+    </declare-styleable>
+
+</resources>
